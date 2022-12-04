@@ -72,8 +72,8 @@ string to_morse(string s) {
 }
 
 int main() {
-	string s = "sos hello";
-	cout << "enter string: ";
-	cin >> s; // get user input from the keyboard
-    std::cout << to_morse(s) << "\n";
+  string s = "sos hello";
+  cout << "enter string: ";
+  cin >> s; // get user input from the keyboard
+  std::cout << to_morse(s) << "\n";
 }
